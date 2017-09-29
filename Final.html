@@ -18,16 +18,54 @@
           max-height: 53.9vh;
           text-align: center;
           color:white;
+          opacity: 0;
           margin-top:80px;
           margin-left:2vw;
     -webkit-animation-name: starz; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 110s; /* Safari 4.0 - 8.0 */
     animation-name: starz;
-    animation-duration: 6s;
+    animation-duration: 110s;
       }
                       @keyframes starz{
-    0%   {opacity:0;}
-    55%  {opacity:0.1;}
+     2.5%   {opacity:0;}
+    5%  {opacity:1;}
+    7.5%  {opacity:0.5;}
+    10%  {opacity:1;}
+    12.5% {opacity:0.5;}
+    15%   {opacity:1;}
+    17.5%  {opacity:0.5;}
+    20%  {opacity:1;}
+    22.5%  {opacity:0.5;}
+    25% {opacity:1;}
+    27.5%   {opacity:0.5;}
+    30%  {opacity:1;}
+    32.5%  {opacity:0.5;}
+    35%  {opacity:1;}
+    37.5% {opacity:0.5;}
+    40% {opacity:1;}
+    42.5% {opacity:0.5;}
+    45% {opacity:1;}
+    47.5%   {opacity:0.5;}
+    50%  {opacity:1;}
+    52.5%  {opacity:0.5;}
+    55%  {opacity:1;}
+    57.5% {opacity:0.5;}
+    60%   {opacity:1;}
+    62.5%  {opacity:0.5;}
+    65%  {opacity:1;}
+    67.5%  {opacity:0.5;}
+    70% {opacity:1;}
+    72.5%   {opacity:0.5;}
+    75%  {opacity:1;}
+    77.5%  {opacity:0.5;}
+    80%  {opacity:1;}
+    82.5% {opacity:0.5;}
+    85% {opacity:1;}
+    87.5% {opacity:0.5;}
+    90% {opacity:1;}
+          92.5% {opacity:0.5;}
+    95% {opacity:1;}
+    97.5% {opacity:0.5;}
     100% {opacity:1;}
       }
       @font-face { 
@@ -63,14 +101,15 @@
           font-weight: 400;
          margin-top: -100px;
           width: 40vw;
+          opacity:0;
           max-height: 350px;
           text-align: center;
           position: relative;
           
            -webkit-animation-name: starz; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 110s; /* Safari 4.0 - 8.0 */
     animation-name: starz;
-    animation-duration: 6s;
+    animation-duration: 110s;
           
           color:white;
       }
@@ -648,6 +687,24 @@
     54% {opacity:0; top:34.5vh;}
     100% {opacity:0; top:100px;}
       }
+      
+            .bord{
+       height: 53.9vh;
+          width: 40vw;
+          z-index:10;
+          position: absolute;
+          background-color: #002868;
+           -webkit-animation-name: blued; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 110s; /* Safari 4.0 - 8.0 */
+    animation-name: blued;
+    animation-duration: 110s;
+          
+              
+      }
+            @keyframes blued{
+    0%   {opacity:0;}
+    98%  {opacity: 0; background-color:#002868; width: 0; height: 0;}
+    100% {opacity:1; background-color:#002868; width: 100vw; height: 100vh;}
 
   </style>
   <script></script>
@@ -691,6 +748,7 @@
         <div class="headings8">VIII</div>
         <div class="headings9">IX</div>
         <div class="headings10">X</div>
+        <div class="bord"></div>
         </div>
     </body>
 </html>
